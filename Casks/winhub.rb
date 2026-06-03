@@ -1,6 +1,6 @@
 cask "winhub" do
-  version "0.3.0"
-  sha256 "b79bb644845c4f1b22de28f0ffc61b4ebde8945e3e49916318b276aa695ea4da"
+  version "0.4.0"
+  sha256 "7cb3a4c604771ec1b5dc1ef96c14e9345a67513fb5410287cff8a6ce3c1cd58e"
 
   url "https://github.com/v2matosevic/WinHub/releases/download/v#{version}/WinHub-#{version}.dmg"
   name "WinHub"
