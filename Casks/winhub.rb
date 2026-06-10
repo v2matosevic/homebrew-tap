@@ -1,6 +1,6 @@
 cask "winhub" do
-  version "0.7.0"
-  sha256 "c428055526eb7dc738e204f53c4649da68a83c8b41e3164877afe2a554e2bf20"
+  version "1.0.0"
+  sha256 "c7977414800dbf1c2b393b330591e01d77f19c8ffb52c5fcfa34d71267553eeb"
 
   url "https://github.com/v2matosevic/WinHub/releases/download/v#{version}/WinHub-#{version}.dmg"
   name "WinHub"
@@ -12,6 +12,7 @@ cask "winhub" do
   app "WinHub.app"
 
   zap trash: [
+    "~/Library/Application Support/WinHub",
     "~/Library/Preferences/hr.version2.winhub.plist",
   ]
 end
